@@ -281,7 +281,14 @@ While intentionally kept lean and dependency-free for educational clarity, the f
 
 ---
 
-## 📄 License
+## 🎓 Academic Context & Author Notes
 
-This project is licensed under the [MIT License](LICENSE) — see the LICENSE file for details.
+This project is **Week 3** of a structured 4-week Python and Software Engineering learning program:
 
+- **Week 1:** Python Fundamentals, Data Structures & Algorithmic Foundations
+- **Week 2:** Object-Oriented Programming (OOP), Modules, Exception Handling & File Management
+- **Week 3:** **Git, GitHub, Version Control, Collaboration & Professional Engineering Practices** 
+- **Week 4:** Capstone Project — Building a Python-based CLI Expense Tracker with JSON Persistence, Testing & Documentation *(This Project)*
+
+**Author:** B.Tech Computer Science Engineering Student, specializing in Robotics & Artificial Intelligence  
+**Academic Focus:** Software Development, Robotics, Artificial Intelligence & Cybersecurity  
