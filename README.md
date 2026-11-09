@@ -11,7 +11,7 @@ Developed as a Week 4 Capstone Project in the Python and Software Engineering Ac
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 1. **Rich Expense Model (`Expense`)**:
    - Unique 8-character alphanumeric identifier for easy terminal interaction.
@@ -46,7 +46,7 @@ Developed as a Week 4 Capstone Project in the Python and Software Engineering Ac
 
 ---
 
-## 📂 Project Architecture
+## Project Architecture
 
 The project adheres to a clean layered architecture, enforcing the **Single Responsibility Principle (SRP)**:
 
@@ -95,7 +95,7 @@ CLI_Expense_Tracker/
 
 ---
 
-## 🛠️ Prerequisites & Setup
+## Prerequisites & Setup
 
 ### Requirements
 - **Operating System**: Windows, macOS, or Linux
@@ -127,7 +127,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the Application
+## Running the Application
 
 Launch the application using either the root convenience script:
 ```powershell
@@ -147,7 +147,7 @@ python main.py
 
 ---
 
-## 💻 CLI Usage Guide
+## CLI Usage Guide
 
 ### Main Menu
 ```text
@@ -226,7 +226,7 @@ Are you sure you want to delete this record? (y/N): y
 
 ---
 
-## 🧪 Running Automated Tests
+## Running Automated Tests
 
 The application features a 44-test suite validating business rules, edge cases, input errors, and file corruption behaviors.
 
@@ -252,7 +252,7 @@ python -m pytest --tb=short
 
 ---
 
-## 🛡️ Software Engineering Highlights
+## Software Engineering Highlights
 
 1. **Defensive Programming & Fail-Safe Persistence**:
    - Writes are directed to `.tmp` files before being atomically swapped with target files. This guarantees that power interruptions or unexpected system reboots cannot leave the JSON file corrupted with partial writes.
@@ -271,7 +271,7 @@ python -m pytest --tb=short
 
 ---
 
-## 🔭 Future Roadmap & Enhancements
+## Future Roadmap & Enhancements
 
 While intentionally kept lean and dependency-free for educational clarity, the following enhancements can be built on top of this architecture:
 - [ ] Export transactions to CSV or PDF summary reports.
@@ -281,7 +281,7 @@ While intentionally kept lean and dependency-free for educational clarity, the f
 
 ---
 
-## 🎓 Academic Context & Author Notes
+## Academic Context & Author Notes
 
 This project is **Week 3** of a structured 4-week Python and Software Engineering learning program:
 
