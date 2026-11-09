@@ -1,0 +1,3 @@
+# Core test framework
+pytest>=7.0.0
+
